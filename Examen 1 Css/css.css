@@ -52,3 +52,47 @@ body {
   width: 720px;
   height: 160px;
 }
+/* parte izquierda */
+
+#navigation {
+  float: left;
+  width: 161px;
+  margin-top: 9px;
+  padding: 6px 5px 14px;
+  border: 1px solid #cccccc;
+  border-left: 0;
+  background-color: #f8f8f8;
+  color: #529bc9;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+#navigation hr {
+  height: 0;
+  margin: 9px -5px 4px;
+  border: 0;
+  border-top: 1px dashed #cccccc;
+}
+
+#navigation a.navigation {
+  display: block;
+  height: 19px;
+  padding-left: 6px;
+  border-left: 5px solid #dddddd;
+  color: #555555;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 0.4px;
+}
+
+#navigation a.navigation:hover {
+  color: #529bc9;
+  background-color: #eeeeee;
+  border-left-color: #529bc9;
+}
