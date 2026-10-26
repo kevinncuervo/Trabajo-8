@@ -23,3 +23,32 @@ body {
   margin: 0 auto;
   background-color: #ffffff;
 }
+
+
+/* Nombre principal de la empresa realizada, tipo de letra y demás */
+
+#top-nav {
+  height: 61px;
+  padding: 23px 5px 0;
+  color: #559dcb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+
+#top-nav b {
+  font-weight: bold;
+}
+
+/* Todo lo que se configura en imagen de arriba (cabecera) */
+
+#header {
+  height: 160px;
+}
+
+#header img {
+  display: block;
+  width: 720px;
+  height: 160px;
+}
